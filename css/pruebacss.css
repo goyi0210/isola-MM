@@ -1,0 +1,141 @@
+/* Activar Modo Oscuro true o false */
+/*Creamos el bucle para usar los valores del mapa*/
+.footer__enlace--instagram:hover {
+  color: #55acee !important;
+}
+
+.footer__enlace--facebook:hover {
+  color: #3a5795 !important;
+}
+
+.footer__enlace--whatsapp:hover {
+  color: #C25E30 !important;
+}
+
+.footer__enlace--mail:hover {
+  color: salmon !important;
+}
+
+body {
+  background-color: #D693A2;
+  font-family: nunito, sans-serif;
+}
+
+header, footer {
+  background-color: #6B6B6B !important;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+.titulo {
+  font-size: 32px;
+}
+
+.parrafo {
+  font-size: 20.8px;
+}
+
+.nav-link {
+  font-size: 20px;
+  transition: all .7s;
+}
+
+.nav-link:hover {
+  color: #000 !important;
+}
+
+/* Bloque Producto + Clases de Bootstrap */
+.producto__info {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.producto__info > div {
+  position: absolute;
+  bottom: -50%;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: all 0.7s;
+  width: 80%;
+  opacity: 0;
+  padding: 0 1rem;
+}
+
+.producto__info:hover > div {
+  opacity: 1;
+  background-color: salmon;
+  bottom: 0;
+}
+
+.producto__modelo {
+  font-family: nunito, sans-serif;
+  font-size: 14px;
+}
+
+.producto__imagen {
+  width: 250px;
+  height: 300px;
+}
+
+/* Bloque Footer +  Clases de Bootstrap */
+.footer {
+  background-image: linear-gradient(#D693A2, #6B6B6B);
+}
+
+.footer__titulo {
+  font-size: 40px;
+}
+
+.footer__enlace {
+  color: #343a40 !important;
+}
+
+/* Bloque Header + Clases de Bootstrap */
+.header {
+  padding: 1.5rem 0;
+  background-image: linear-gradient(#6B6B6B, #D693A2);
+}
+
+.header__logotipo {
+  max-width: 200px;
+}
+
+.header__input {
+  border: 2px solid #000 !important;
+}
+
+/* Bloque Banner + Clases de Bootstrap */
+.banner__img {
+  width: 80%;
+  max-height: 350px;
+}
+
+.banner__titulo {
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 70%;
+  max-width: 700px;
+  text-align: center;
+  color: white;
+  margin-bottom: 0;
+}
+
+@media (min-width: 568px) {
+  .header__logotipo {
+    max-width: 300px;
+  }
+  .nav-link:hover {
+    transform: scale(1.2);
+  }
+  .banner__titulo {
+    top: 50%;
+    left: 50%;
+    bottom: unset;
+  }
+}

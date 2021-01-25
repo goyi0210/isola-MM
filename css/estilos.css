@@ -1,0 +1,92 @@
+body {
+    background-color: #D693A2;
+    font-family: nunito, sans-serif;
+}
+
+header, footer {
+    background-color: #6B6B6B !important;
+}
+
+.border {
+    border: 2px solid #000 !important;
+}
+
+.coleccion {
+    width: 80%;
+    max-height: 350px;
+}
+
+.titulo {
+    font-size: 35px;
+}
+
+.parrafo {
+    font-size: 20px;
+}
+
+.grad1 {
+    background-image: linear-gradient(#D693A2, #6B6B6B);
+}
+
+#footer .titulo {
+    font-size: 40px;
+}
+
+.nav-link {
+    font-size: 20px;
+    transition: all .7s;
+}
+
+.nav-link:hover {
+    color: #000 !important;
+    transform: scale(1.2);
+}
+
+.imagen {
+    width: 250px;
+    height: 300px;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+.logotipo {
+    max-width: 200px;
+}
+
+@media (min-width: 568px) {
+    .logotipo {
+        max-width: 300px;
+    }
+}
+
+.modelo {
+    font-family: nunito, sans-serif;
+    font-size: 15px;
+}
+
+
+.info {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+.producto__info > div {
+    position: absolute;
+    bottom: -50%;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: all 0.7s;
+    width: 80%;
+    opacity: 0;
+    padding: 0 1rem;
+}
+
+.producto__info:hover > div {
+    opacity: 1;
+    background-color: salmon;
+    bottom: 0;
+}
