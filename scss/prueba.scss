@@ -10,10 +10,10 @@ $max-width-contenedor: 900px;
 $modo-oscuro: false; /* Activar Modo Oscuro true o false */
 
 $redes: ( /*Declaramos nuestro mapa*/
-  instagram: #55acee,
+  instagram: #f904c5,
   facebook:  #3a5795,
-  whatsapp: #C25E30,
-  mail: salmon
+  whatsapp: #00da56,
+  mail: #3a5795
 );
 
 /*Creamos el bucle para usar los valores del mapa*/
@@ -74,20 +74,17 @@ h2 {
 
 .producto__info > div {
   position: absolute;
-  bottom: -50%;
+  bottom: 0;
   left: 50%;
   transform: translateX(-50%);
-  transition: all 0.7s;
+
   width: 80%;
-  opacity: 0;
+
   padding: 0 1rem;
+  background-color: salmon;
 }
 
-.producto__info:hover > div {
-  opacity: 1;
-  background-color: salmon;
-  bottom: 0;
-}
+
 
 .producto__modelo {
   font-family: nunito, sans-serif;
@@ -165,5 +162,19 @@ h2 {
     top: 50%;
     left: 50%;
     bottom: unset;
+  }
+
+  .producto__info > div {
+    bottom: -50%;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: all 0.7s;
+    opacity: 0;
+    
+  }
+  
+  .producto__info:hover > div {
+    opacity: 1;
+    bottom: 0;
   }
 }

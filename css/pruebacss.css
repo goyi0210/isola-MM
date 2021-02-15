@@ -1,7 +1,7 @@
 /* Activar Modo Oscuro true o false */
 /*Creamos el bucle para usar los valores del mapa*/
 .footer__enlace--instagram:hover {
-  color: #55acee !important;
+  color: #f904c5 !important;
 }
 
 .footer__enlace--facebook:hover {
@@ -9,11 +9,11 @@
 }
 
 .footer__enlace--whatsapp:hover {
-  color: #C25E30 !important;
+  color: #00da56 !important;
 }
 
 .footer__enlace--mail:hover {
-  color: salmon !important;
+  color: #3a5795 !important;
 }
 
 body {
@@ -55,19 +55,12 @@ h2 {
 
 .producto__info > div {
   position: absolute;
-  bottom: -50%;
+  bottom: 0;
   left: 50%;
   transform: translateX(-50%);
-  transition: all 0.7s;
   width: 80%;
-  opacity: 0;
   padding: 0 1rem;
-}
-
-.producto__info:hover > div {
-  opacity: 1;
   background-color: salmon;
-  bottom: 0;
 }
 
 .producto__modelo {
@@ -133,5 +126,16 @@ h2 {
     top: 50%;
     left: 50%;
     bottom: unset;
+  }
+  .producto__info > div {
+    bottom: -50%;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: all 0.7s;
+    opacity: 0;
+  }
+  .producto__info:hover > div {
+    opacity: 1;
+    bottom: 0;
   }
 }
