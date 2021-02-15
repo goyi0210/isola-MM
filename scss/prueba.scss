@@ -77,14 +77,10 @@ h2 {
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
-
   width: 80%;
-
   padding: 0 1rem;
   background-color: salmon;
 }
-
-
 
 .producto__modelo {
   font-family: nunito, sans-serif;
@@ -97,7 +93,6 @@ h2 {
 }
 
 .footer {
-  
   @if $modo-oscuro == true {
     background-image: $footer-gradiente-modo-oscuro;
     
@@ -170,7 +165,6 @@ h2 {
     transform: translateX(-50%);
     transition: all 0.7s;
     opacity: 0;
-    
   }
   
   .producto__info:hover > div {
