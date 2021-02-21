@@ -67,8 +67,7 @@
 						</a>
 						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 						  <a class="dropdown-item" href="showroom.html">Showroom</a>
-						  <a class="dropdown-item" href="#">Preguntas Frecuentes</a>
-	  
+						  <a class="dropdown-item" data-toggle="modal" data-target="#exampleModal2">Preguntas Frecuentes</a>
 						</div>
 					  </li>
 					</ul>
@@ -136,7 +135,7 @@
 				</div>
 		
 				<div class="col-12 col-md-4 mt-4 mt-md-0">
-					<a type="button" class="text-white footer__titulo font-italic" data-toggle="modal" data-target="#exampleModal">Trabaja con nosotros</a>
+					<a type="button" class="text-white footer__titulo font-italic text-decoration" data-toggle="modal" data-target="#exampleModal">Trabaja con nosotros</a>
 					<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
 						<div class="modal-dialog">
 							<div class="modal-content">
@@ -172,6 +171,112 @@
 			</div>
 		</div>
 	</footer>
+
+	<div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+				PREGUNTAS FRECUENTES
+				</div>
+
+				<div class="modal-body">
+					
+					<div class="accordion" id="accordionExample">
+						<div class="card">
+						  <div class="card-header" id="headingOne">
+							<h2 class="mb-0">
+							  <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+								¿Puedo cambiar mi producto?
+							  </button>
+							</h2>
+						  </div>
+					  
+						  <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+							<div class="card-body">
+								Si el defecto es de fábrica (costura y/ó funcionamiento de cierres y herrajes del producto), tienes un plazo de 10 días hábiles, desde tu compra, si es en Capital Federal, ó desde que recibes el producto en tu domicilio, si es en el resto de Argentina. Se toma el precio de compra y se puede cambiar por el mismo (sujeto a disponibilidad) o por otro, abonando la diferencia de precio, si existiese.
+							</div>
+						  </div>
+						</div>
+						<div class="card">
+						  <div class="card-header" id="headingTwo">
+							<h2 class="mb-0">
+							  <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+								¿Cómo hago para realizar mi compra?
+							  </button>
+							</h2>
+						  </div>
+						  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+							<div class="card-body">
+								Directamente a través de nuestras redes sociales o nuestro Whatsapp y nos pondremos en contacto contigo para ayudarte a concretar la compra.
+							</div>
+						  </div>
+						</div>
+						<div class="card">
+						  <div class="card-header" id="headingThree">
+							<h2 class="mb-0">
+							  <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+								¿Cuáles son las opciones de pago?
+							  </button>
+							</h2>
+						  </div>
+						  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+							<div class="card-body">
+								Los medios de pago disponibles son: MercadoPago (dinero en cuenta), efectivo ó transferencia bancaria. No aceptamos pagos en cuotas.
+							</div>
+						  </div>
+						</div>
+						<div class="card">
+							<div class="card-header" id="heading4">
+							  <h2 class="mb-0">
+								<button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+									¿Dónde puedo retirar mi producto?
+								</button>
+							  </h2>
+							</div>
+							<div id="collapse4" class="collapse" aria-labelledby="heading4" data-parent="#accordionExample">
+							  <div class="card-body">
+								En Capital Federal, poniéndote en contacto con nuestro personal, vía Whatsapp, se concreta el lugar de entrega en alguno de nuestros puntos, si deseas pasar a retirarlo.
+							  </div>
+							</div>
+						  </div>
+						  <div class="card">
+							<div class="card-header" id="heading5">
+							  <h2 class="mb-0">
+								<button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+									¿Tienen envío a domicilio?
+								</button>
+							  </h2>
+							</div>
+							<div id="collapse5" class="collapse" aria-labelledby="heading5" data-parent="#accordionExample">
+							  <div class="card-body">
+								Hacemos envío a domicilio a toda la República Argentina, por medio de Correo Argentino, su tiempo de demora de entrega está sujeto a dicha empresa y el costo de envío varía según la zona de entrega.
+							  </div>
+							</div>
+						  </div>
+						  <div class="card">
+							<div class="card-header" id="heading6">
+							  <h2 class="mb-0">
+								<button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
+									¿Dónde puedo hacer mis consultas o reclamos?
+								</button>
+							  </h2>
+							</div>
+							<div id="collapse6" class="collapse" aria-labelledby="heading6" data-parent="#accordionExample">
+							  <div class="card-body">
+								Para cualquier consulta o reclamo, no dudes en contactarnos por medio de nuestro Whatsapp y amablemente te atenderemos a la brevedad posible.
+							  </div>
+							</div>
+						  </div>
+					  </div>
+				</div>
+
+				<div class="modal-footer">
+				<button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+	
+				</div>
+			</div>
+		</div>
+	</div>
 
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
